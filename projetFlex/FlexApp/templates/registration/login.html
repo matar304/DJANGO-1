@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Connexion</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <h1>Connexion</h1>
+    <form method="POST">
+        {% csrf_token %}
+        <input type="text" name="email" placeholder="Matricule" required><br>
+        <input type="password" name="password" placeholder="Mot de passe" required><br>
+        <button type="submit">Se connecter</button>
+    </form>
+</body>
+</html>

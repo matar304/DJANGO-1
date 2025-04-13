@@ -1,0 +1,19 @@
+{% load static %}  <!-- Charger les fichiers statiques en haut du fichier -->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+</head>
+<body>
+
+    <!-- Insère ici le logo -->
+    <img src="{% static 'images/logo.png' %}" alt="Logo" width="150">
+   <center>
+       <h1>Bienvenue dans l'univers Flex, la salle d'entrainnement où vos muscles Flex en un temps record.!</h1><br>
+       <h3>Veuillez vous connecter<a href="login">Login</a></h3><br>
+   </center>
+</body>
+</html>
